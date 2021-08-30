@@ -315,7 +315,8 @@ label span{color:#FF0000; background-color:inherit;}
 input:focus, textarea:focus, *:required:focus{border-color:#539920 !important;}
 
 .overlay{color:#FFFFFF; background-color:inherit;}
-.overlay::after{color:inherit; background-color:rgba(0,0,0,.55);}
+/* .overlay::after{color:inherit; background-color:rgba(0,0,0,.55);} */
+.overlay::after{color:inherit; background-color:rgba(0,0,0,0);}
 .overlay.light{color:#474747;}
 .overlay.light::after{background-color:rgba(255,255,255,.7);}
 
@@ -353,7 +354,8 @@ input:focus, textarea:focus, *:required:focus{border-color:#539920 !important;}
 
 
 /* Page Intro */
-#pageintro{color:#FFFFFF;}
+#pageintro h3 {color:#539920;}
+#pageintro p {color:#165727;}
 
 
 /* Content Area */
