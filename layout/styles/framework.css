@@ -9,7 +9,12 @@ Licence URI: https://www.os-templates.com/template-terms
 File: Framework CSS
 */
 
-html{overflow-y:scroll; overflow-x:hidden;}
+html{overflow-y:scroll; overflow-x:hidden;scroll-behavior: smooth;}
+@media screen and (prefers-reduced-motion: reduce) {
+	html {
+		scroll-behavior: auto;
+	}
+}
 html, body{margin:0; padding:0; font-size:14px; line-height:1.6em;}
 
 *, *::before, *::after{box-sizing:border-box;}
